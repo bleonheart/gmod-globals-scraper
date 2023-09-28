@@ -1,5 +1,5 @@
 
-local http = require("http.request")
+local http = require("socket.http")
 local parser = require("htmlparser")
 local baseUrl = "https://wiki.garrysmod.com"
 local requestTimeout = 10
